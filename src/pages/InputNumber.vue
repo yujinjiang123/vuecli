@@ -1,5 +1,5 @@
 <template>
-  <input-number v-model="value" :max="10" :min="0"></input-number>
+    <input-number v-model="value" :max="10" :min="0" v-once></input-number>
 </template>
 
 <script>

@@ -71,6 +71,7 @@
             if(val<=min){
               val=this.min;
             }
+            console.log(val);
             this.currentValue=val;
           }else{
             event.target.value=this.currentValue;

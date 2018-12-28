@@ -1,20 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import RouterConfig from './modules' //引入业务逻辑模块
+import CommonConfig from './common' //引入通用模块
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },{
-      path: '/InputNumber',
-      name: 'InputNumber',
-      component: ()=>import("@/pages/InputNumber")
-    }
-
-  ]
+  routes: RouterConfig.concat(CommonConfig)
 })
