@@ -1,4 +1,4 @@
-const files=require.context('.',true,/\.js$/);  //返回匹配到的文件的数组
+const files=require.context('.',true,/\.js$/);  //返回匹配到的.js文件的数组
 
 let configRouters=[];
 files.keys().forEach(key=>{
