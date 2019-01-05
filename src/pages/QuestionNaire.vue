@@ -4,9 +4,11 @@
 
 <script>
   import QuestionNaire from "@/components/QuestionNaire";
+  import Button from "@/components/BaseButton";
   export default {
     components: {
       questionNaire:QuestionNaire,
+      baseButton:Button,
     },
     data() {
       return {
