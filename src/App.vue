@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <span class="svg-container">
+          <svg-icon icon-class="user" />
+        </span>
     <router-view/>
   </div>
 </template>

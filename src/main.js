@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import './global' //引入全局组件
+import './icons'  //引入svg
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

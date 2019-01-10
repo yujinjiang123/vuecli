@@ -7,6 +7,4 @@ files.keys().forEach(key=>{
   }
   configRouters=configRouters.concat(files(key).default); //读取文件中的default
 });
-
 export default configRouters  //抛出一个Vue-Router期待的数据结构的数组
-

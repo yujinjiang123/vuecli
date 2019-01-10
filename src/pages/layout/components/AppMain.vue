@@ -4,8 +4,8 @@
 
 <script>
     export default {
-        name: "AppMain"
-    }
+         name: "AppMain"  
+    }    
 </script>
 
 <style scoped>

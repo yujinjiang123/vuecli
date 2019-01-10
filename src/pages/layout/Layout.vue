@@ -10,10 +10,9 @@
 
 
 <script>
-
   import {AppMain, Aside, Navbar} from "./components";
 
-  export default {
+  export default { 
     name :"Layout",
     components: {
       AppMain,
